@@ -90,6 +90,8 @@ main {
     border: 2px solid #0044cc; /* Adds a border */
     flex-shrink: 0; /* Prevents the image from resizing */
     display: block;
+    margin: 10px auto; /* Center the image */
+
 
 }
 /* Styling for the paragraph next to the image */
