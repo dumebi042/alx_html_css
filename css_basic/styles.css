@@ -77,14 +77,40 @@ article {
 }
 
 /* Aside styling */
-aside {
-    flex: 1; /* Take up 1/3 of the width */
-    overflow-y: auto; /* Enable vertical scrolling */
-    background-color: #ffffff; /* White background */
-    border: 1px solid #ddd;
+/* Styling for the aside form */
+aside form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+aside label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+aside textarea {
+    width: 100%;
+    border: 1px solid #ccc;
     border-radius: 5px;
-    padding: 15px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    font-size: 1rem;
+    resize: vertical; /* Allows vertical resizing only */
+}
+
+aside button {
+    align-self: flex-start;
+    background-color: #0044cc;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+aside button:hover {
+    background-color: #0033a1;
 }
 
 /* Links inside article */
