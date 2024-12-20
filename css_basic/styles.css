@@ -83,7 +83,7 @@ main {
     gap: 15px; /* Add space between the image and text */
 }
 /* Styling for the profile picture */
-.profile-pic {
+figure .profile-pic {
     width: 150px;
     height: 150px;
     border-radius: 50%; /* Makes the image circular */
