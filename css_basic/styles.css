@@ -77,14 +77,24 @@ main {
 }
 
 /* Article styling */
+.intro-section {
+    display: flex;
+    align-items: flex-start; /* Align image and text to the top */
+    gap: 15px; /* Add space between the image and text */
+}
 /* Styling for the profile picture */
 .profile-pic {
     width: 150px;
     height: 150px;
     border-radius: 50%; /* Makes the image circular */
     border: 2px solid #0044cc; /* Adds a border */
-    margin: 10px auto; /* Center the image */
-    display: block; /* Ensures proper layout */
+    flex-shrink: 0; /* Prevents the image from resizing */
+
+}
+/* Styling for the paragraph next to the image */
+.intro-section p {
+    margin: 0; /* Remove default margins */
+    line-height: 1.6; /* Improve readability */
 }
 article {
     flex: 2; /* Take up 2/3 of the width */
