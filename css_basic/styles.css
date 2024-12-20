@@ -87,6 +87,19 @@ article {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
+img {
+    max-width: 100%; /* Ensure images fit within their parent container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
 /* Aside styling */
 /* Styling for the aside form */
 aside form {
@@ -156,6 +169,8 @@ table {
     border-collapse: collapse; /* Ensures borders are clean and don't double up */
     margin-top: 20px; /* Adds space above the table */
     background-color: #f9f9f9; /* Light background for readability */
+    max-width: 100%; /* Prevent overflow */
+    overflow-x: auto; /* Enable scrolling for wide tables */
 }
 
 table caption {
