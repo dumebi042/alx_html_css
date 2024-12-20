@@ -89,8 +89,7 @@ main {
     border-radius: 50%; /* Makes the image circular */
     border: 2px solid #0044cc; /* Adds a border */
     flex-shrink: 0; /* Prevents the image from resizing */
-    display: block;
-    margin: 10px auto; /* Center the image */
+    object-fit: cover; /* Ensures the image fills the circle without distortion */
 
 
 }
