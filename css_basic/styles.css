@@ -77,6 +77,15 @@ main {
 }
 
 /* Article styling */
+/* Styling for the profile picture */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes the image circular */
+    border: 2px solid #0044cc; /* Adds a border */
+    margin: 10px auto; /* Center the image */
+    display: block; /* Ensures proper layout */
+}
 article {
     flex: 2; /* Take up 2/3 of the width */
     overflow-y: auto; /* Enable vertical scrolling */
