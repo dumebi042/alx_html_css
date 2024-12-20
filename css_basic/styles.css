@@ -80,7 +80,7 @@ main {
 .intro-section {
     display: flex;
     align-items: center; /* Align image and text to the top */
-    gap: 20px; /* Add space between the image and text */
+    gap: 15px; /* Add space between the image and text */
     flex-wrap: wrap; /* Allows wrapping on smaller screens */
     margin-top: 20px;
 }
