@@ -139,3 +139,36 @@ article img {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures borders are clean and don't double up */
+    margin-top: 20px; /* Adds space above the table */
+    background-color: #f9f9f9; /* Light background for readability */
+}
+
+table caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+th, td {
+    border: 1px solid #ddd; /* Adds a light border */
+    text-align: left; /* Aligns text to the left */
+    padding: 10px; /* Adds padding for spacing */
+}
+
+th {
+    background-color: #0044cc; /* Dark blue header background */
+    color: white; /* White text for header */
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Adds a light gray background to alternate rows */
+}
+
+tr:hover {
+    background-color: #e0e0e0; /* Changes background color on hover for better interactivity */
+}
