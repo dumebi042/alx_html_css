@@ -1,4 +1,9 @@
 /* General body styling */
+/* Ensure all elements stay within the viewport */
+* {
+    box-sizing: border-box; /* Ensures padding and borders are included in element width/height */
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -7,8 +12,14 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f5; /* Light gray background */
     color: #333; /* Text color */
+    padding: 0;
+    overflow-x: hidden; /* Disables horizontal scrolling */
 }
-
+}
+main, header, footer {
+    max-width: 100%;
+    overflow-x: hidden; /* Ensure no overflow from these sections */
+}
 /* Header styling */
 header {
     background-color: #0044cc; /* Dark blue */
